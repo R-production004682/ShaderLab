@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dart
+  m_Shader: {fileID: 4800000, guid: 8190593a1c4364e45b73a1d32843f241, type: 3}
+  m_Parent: {fileID: 2100000, guid: 289d7bba753dcbe478d4fe54c57a7766, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap1:
+        m_Texture: {fileID: 2800000, guid: e88fd7c11576c734386bb8ed1e61a86a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap2:
+        m_Texture: {fileID: 2800000, guid: 7fb56d180d721d6459c13338ff38ebe5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 4164b771c2b784c2da3cbe10847a182e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ad368efdb875f8c4fba4fd7c651cbe2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 5e96f14495677b84ab24730717a9cfb0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 4ed687bf5eb30a34aa78d5692748c054, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubShader:
+        m_Texture: {fileID: 2800000, guid: ad368efdb875f8c4fba4fd7c651cbe2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTex:
+        m_Texture: {fileID: 2800000, guid: 2ffff6053b5a58641bbfd91a6f4642b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendContrast: 1.974
+    - _DetailIntensity: 0.167
+    - _Glossiness: 0.058
+    - _MaskSharpness: 1.61
+    - _MaskStrength: 1
+    - _Metallic: 0.458
+    - _Smoothness: 1
+    m_Colors:
+    - _Color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+  m_BuildTextureStacks: []
