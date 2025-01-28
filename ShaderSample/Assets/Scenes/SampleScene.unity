@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dragon (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -713,27 +717,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalScale.x
-      value: 50
+      value: 76.515
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalScale.y
-      value: 50
+      value: 76.515
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalScale.z
-      value: 50
+      value: 76.515
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.7899356
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.410018
+      value: 3.28
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_LocalRotation.w
@@ -767,6 +771,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e137350620e71647aaa4d3f08331683, type: 2}
     - target: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_Name
       value: dragon (1)
@@ -774,8 +782,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 958057402}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 958057406}
   m_SourcePrefab: {fileID: 100100000, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+--- !u!1 &958057401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+  m_PrefabInstance: {fileID: 958057400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &958057402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958057401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40533436de4b67640842c3865075d583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &958057406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958057401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6099d104b4f6ade478c8b609d1e3ccec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topologyMaterial: {fileID: 2100000, guid: 5e137350620e71647aaa4d3f08331683, type: 2}
+  speed: 1
+  maxDisplacement: 40
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1301,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
       propertyPath: m_Name
       value: dragon
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e2c4bb28fe6964f40b3b83cc2d8eec54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
