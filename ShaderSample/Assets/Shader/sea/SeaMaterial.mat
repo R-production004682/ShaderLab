@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: 4800000, guid: f73a4507185002c49bc07a4293a9d085, type: 3}
+  m_Name: SeaMaterial
+  m_Shader: {fileID: 4800000, guid: 493d25ab339e09645be574f11b575263, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -80,8 +80,10 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WaveSpeedX: 0.025
-    - _WaveSpeedY: 0.06
+    - _WaveFrequency: 5
+    - _WaveHeight: 0.141
+    - _WaveSpeedX: 0.421
+    - _WaveSpeedY: 0.368
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
